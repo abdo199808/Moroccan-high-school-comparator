@@ -1,0 +1,35 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff;
+  color: #333;
+}
+.App {
+  padding: 20px;
+}
+input {
+  padding: 6px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+button {
+  cursor: pointer;
+  background: #4a90e2;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+button:hover {
+  background: #357abd;
+}
+.suggestion {
+  background: #f0f0f0;
+  padding: 5px 8px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+.suggestion:hover {
+  background: #ddd;
+}
